@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> My Profile - Shubham kumar</title>
+    <style>
+        header {
+            letter-spacing: 1px;
+            word-spacing: 0px;
+            color: rgb(249, 255, 255);
+            font-family: "Sofia", sans-serif;
+            text-align: center;
+        }
+
+        nav {
+            font-family: "Trirong", sans-serif;
+            font-weight: bolder;
+            font-size: larger;
+            text-shadow: 5px 3px 5px;
+        padding-top: 10px;
+        }
+
+        #contact_info {
+            box-shadow: 5px 5px 5px rgb(170, 75, 75);
+            text-align: right;
+            padding-right: 30px;
+        }
+
+        .contact_name {
+            font-weight: bold;
+            font-size: large;
+            color: rgb(10, 78, 78);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- This is header section -->
+    <header>
+            <div id="contact_info">
+                <i class="fa fa-user-circle-o" style="color:rgb(10, 78, 78)"></i>  <span class="contact_name">Shubham kumar </span>&nbsp;&nbsp; |
+                &nbsp;&nbsp;
+                <i class="fa fa-phone-square" style="color: rgb(10, 78, 78);"></i> +91 5678 90 4567 &nbsp;&nbsp; |
+                &nbsp;&nbsp;
+                <i class="fa fa-envelope" style="color: rgb(10, 78, 78);"></i> kshubam999@gmail.com
+            </div>
+</header>
+        <!-- this is navigation section -->
+
+
+        <nav>
+            <a href="home.html" target="my_frame"> HOME</a> &nbsp;&nbsp; | &nbsp;&nbsp;
+            <a href="education.html" target="my_frame"> EDUCATION</a> &nbsp;&nbsp; | &nbsp;&nbsp;
+            <a href="#"> PROJECT</a> &nbsp;&nbsp; | &nbsp;&nbsp;
+            <a href="tech_stack.html" target="my_frame"> TECHNOLOGY STACK</a> &nbsp;&nbsp; | &nbsp;&nbsp;
+            <a href="hobbies.html" target="my_frame"> HOBBIES</a> &nbsp;&nbsp; | &nbsp;&nbsp;
+            <a href="personal detail.html" target="my_frame"> PERSONAL DETAILS</a> &nbsp;&nbsp; | &nbsp;&nbsp;
+            <a href="acievements.html" target="my_frame"> ACHIEVEMENTS</a> &nbsp;&nbsp; | &nbsp;&nbsp;
+            <a href="extra activities.html" target="my_frame">extra activities</a>
+        </nav>
+       
+        <!-- This is body section where we will load our page using iframe tag -->
+        <div>
+            <iframe width="850px" height="550px" name="my_frame" src="home.html" style="border: black;">
+
+            </iframe>
+        </div>
+
+        <!-- This is footer section -->
+        <footer>
+            <p>
+                Other Profiles &nbsp;&nbsp; | &nbsp;&nbsp;
+                <a href="https://www.naukri.com/mnjuser/homepage" target="_blank"> Naukri </a> &nbsp;&nbsp; |
+                &nbsp;&nbsp;
+                <i class="fa fa-github fa-2x" aria-hidden="true"></i> <a href="#"> GIT </a> &nbsp;&nbsp; | &nbsp;&nbsp;
+                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i> <a
+                    href="https://www.linkedin.com/company/naukri.com/?originalSubdomain=in"> LinkedIn </a>
+            </p>
+        </footer>
+
+</body>
+
+</html>

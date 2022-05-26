@@ -1,1 +1,1 @@
-# tour-travels
+# hospital-management-system
